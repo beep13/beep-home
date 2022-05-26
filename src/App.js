@@ -1,14 +1,26 @@
+import React, { Component } from 'react';
 import './App.css';
+import ArrowForwardRoundedIcon from '@mui/icons-material/ArrowForwardRounded';
 
-function App() {
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      route: 'landing'
+    }
+  }
+
+  render() {
   return (
     <div className="App">
       <header className="App-header">
         <h1>welcome to beep's house</h1>
-        <p>All right, it's time to go</p>
+        <p>All right, let's go</p>
+          <ArrowForwardRoundedIcon fontSize="large" />
       </header>
     </div>
   );
+}
 }
 
 export default App;
