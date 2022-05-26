@@ -1,5 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from 'react-router-dom';
 import './index.css';
 import App from './App';
 import Music from './components/music/music';
@@ -8,8 +14,10 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+  <Router>
     <App />
     <Music />
+  </Router>
   </React.StrictMode>
 );
 

@@ -16,7 +16,7 @@ class App extends Component {
       <header className="App-header">
         <h1>welcome to beep's house</h1>
         <p>All right, let's go</p>
-          <ArrowForwardRoundedIcon fontSize="large" />
+          <ArrowForwardRoundedIcon className="arrow" fontSize="large" />
       </header>
     </div>
   );
