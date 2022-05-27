@@ -11,7 +11,7 @@ class App extends Component {
         <h1>welcome to beep's house</h1>
         <p>All right, let's go</p>
         <Link to="/directory">
-          <ArrowForwardRoundedIcon className="arrow" fontSize="large" />
+          <ArrowForwardRoundedIcon className="nav-click" fontSize="large" />
         </Link>
       </header>
     </div>
