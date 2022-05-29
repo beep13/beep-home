@@ -20,7 +20,7 @@ export default function MusicCard() {
           Music
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Checkout some music I've worked on here
+          Check out some music I've worked on here
         </Typography>
       </CardContent>
       <CardActions>

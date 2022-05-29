@@ -21,7 +21,7 @@ export default function ProjectCard() {
           Projects
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Checkout some projects I've worked on here
+          Check out some projects I've worked on here
         </Typography>
       </CardContent>
       <CardActions>
